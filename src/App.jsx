@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 
 import List from "./pages/list/List";
 import Product from "./pages/product/Product";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         </Route>
         <Route path="/products" element={<Product />} />
       </Routes>
+      <Footer />
     </div>
   );
 };
